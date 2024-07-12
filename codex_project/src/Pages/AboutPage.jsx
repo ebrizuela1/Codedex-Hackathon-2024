@@ -11,16 +11,18 @@ import CardDefault from '../Components/ItemCard.jsx'
 
 function AboutPage() {
     return(
-        <div className = " mt-3">
-            <Typography
-                variant = "lead"
-            >
-                Stoop Sale Sneak Peak!
-            </Typography>
+        <div className = " mt-3 items-center justify-center">
+            <div className = "flex flex-col justify-center items-center">
+                <Typography
+                    variant = "lead"
+                >
+                    Stoop Sale Sneak Peak!
+                </Typography>
 
-            <Typography>
-                Here’s a taste of all the goodies that we will be selling in our up and coming stoop sale!
-            </Typography>
+                <Typography>
+                    Here’s a taste of all the goodies that we will be selling in our up and coming stoop sale!
+                </Typography>
+            </div>
 
             <div className = "flex flex-wrap gap-[100px] items-center justify-center mt-5">
                 <CardDefault
@@ -36,7 +38,7 @@ function AboutPage() {
                 <CardDefault
                     title = "Gift Basket"
                     image = "https://m.media-amazon.com/images/I/91b10Q+dEIL._AC_UF894,1000_QL80_.jpg"
-                    description = {"Helped me win an argument once, very effective"}
+                    description = {"This gift basket is brimming with charming little goodies that are perfect for any occasion. Whether you’re looking for a sweet treat for yourself or a thoughtful gift for someone special."}
                 />
                 <CardDefault
                     title = "Birkenstocks"

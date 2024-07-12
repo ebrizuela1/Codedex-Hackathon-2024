@@ -7,7 +7,7 @@ import BetterShare from '../Components/BetterShare.jsx'
 
 function Intro() {
   const [count, setCount] = useState(0)
-  const EventDate = new Date(2025,6,20,12);
+  const EventDate = new Date(2024,8,20,12);
   const currentTime = Date.now();
   const duration = EventDate.getTime() - currentTime; 
 
