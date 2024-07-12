@@ -10,6 +10,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: none;
+  position: relative;
 }
 
 .time-container{
@@ -19,4 +20,139 @@
 .time-small-container{
   color:white;  
   margin:0 20px;
+}
+
+.share-button{
+  padding:10px;
+  /* border: 2px solid black; */
+  transition: 0.3s;
+}
+
+.share-button:hover{
+  padding:10px;
+  /* border: 2px solid white; */
+  background: white;
+  color: black;
+  transform: scale(1.2);
+}
+
+.get-big{
+  transition: 0.3s;
+}
+
+.get-big:hover{
+  transform: scale(1.1);
+  text-shadow: 0 0 10px black;
+}
+
+.FAQ-container{
+  /* background:black; */
+  width:50%;
+  display: block;
+  margin: 50px auto;
+  padding:20px;
+  color: #FFFFFF;
+}
+
+.accordion{
+  /* background-color: red; */
+  color: white;
+}
+.custom-shape-divider-bottom-1720757246 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1720757246 svg {
+  position: relative;
+  display: block;
+  width: calc(234% + 1.3px);
+  height: 153px;
+}
+
+.custom-shape-divider-bottom-1720757246 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.custom-shape-divider-bottom-1720754470 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1720754470 svg {
+  position: relative;
+  display: block;
+  width: calc(116% + 1.3px);
+  height: 179px;
+}
+
+.custom-shape-divider-bottom-1720754470 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.faq-page{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background:brown;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/03/07/11/brooklyn-manhattan-bridge.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  position: relative;
+}
+
+.custom-shape-divider-top-1720754856 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1720754856 svg {
+  position: relative;
+  display: block;
+  width: calc(116% + 1.3px);
+  height: 179px;
+}
+
+.custom-shape-divider-top-1720754856 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.custom-shape-divider-top-1720756955 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1720756955 svg {
+  position: relative;
+  display: block;
+  width: calc(300% + 1.3px);
+  height: 201px;
+}
+
+.custom-shape-divider-top-1720756955 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.map-container{
+  width: 50%;
+  margin: 50px auto;
+  background: black;
 }

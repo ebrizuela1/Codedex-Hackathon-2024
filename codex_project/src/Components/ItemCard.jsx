@@ -27,9 +27,7 @@ function CardDefault({title, image, description}) {
         </Typography>
       </CardBody>
 
-      <CardFooter className="pt-0">
-        <Button>Read More</Button>
-      </CardFooter>
+      
     </Card>
   );
 }

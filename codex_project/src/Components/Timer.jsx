@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-import TimerCard from './TimerCard.jsx';
+import TimerCard from './TimerCard.jsx'
 
 function Timer({duration}) {
     const[time,setTime] = useState(duration);

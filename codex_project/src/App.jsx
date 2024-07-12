@@ -6,6 +6,7 @@ import { NavbarSimple } from './Components/NavBar.jsx'
 import FaqPage from './Pages/FAQPage.jsx';
 import MapPage from './Pages/MapPage.jsx';
 import React from 'react'
+import 'leaflet/dist/leaflet.css';
 
 
 function App() {

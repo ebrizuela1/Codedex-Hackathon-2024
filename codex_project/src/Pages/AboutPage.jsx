@@ -11,7 +11,7 @@ import CardDefault from '../Components/ItemCard.jsx'
 
 function AboutPage() {
     return(
-        <div className = " border-2 mt-3">
+        <div className = " mt-3">
             <Typography
                 variant = "lead"
             >
@@ -24,14 +24,14 @@ function AboutPage() {
 
             <div className = "flex flex-wrap gap-[100px] items-center justify-center mt-5">
                 <CardDefault
-                    title = "My Shoes"
+                    title = "Shoes"
                     image = "https://i.etsystatic.com/15554533/r/il/6804c5/3995406958/il_570xN.3995406958_7m9k.jpg"
-                    description={"These shoes have been the best shoes ever please buy them, I beg of you I will do anything"}
+                    description={"Perfect for adding flair and comfort to your wardrobe without breaking the bank. Find the perfect pair to step out in style!"}
                 />
                 <CardDefault
-                    title = "My Dress"
+                    title = "Dresses"
                     image = "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRj2mTcsTner1cj0GjhtNJHy8uzweR89YrFHqRS-UAyVoOOEjK-eWEiW-EuP9eQcmLQMJyqzwdxU-_DmxCEoOHTJK6vYdPewlA1ZzaTK3TRixTfofyrogkvTCF8_hb6hwjFNWrYI84&usqp=CAc"
-                    description = {"This dress has bagged me a lot in my life. Definitely worth it. 10/10"}
+                    description = {"This dress is a must-have! Whether it's for a special event or just to feel fabulous every day this dress is for you!"}
                 />
                 <CardDefault
                     title = "Gift Basket"
@@ -41,12 +41,12 @@ function AboutPage() {
                 <CardDefault
                     title = "Birkenstocks"
                     image = "https://s7d2.scene7.com/is/image/aeo/7413_9360_256_f?$pdp-m-opt$"
-                    description = {"Most comfortable sandals in my life"}
+                    description = {"Whether you're looking for a special gift or just want to treat yourself, this basket has something for everyone."}
                 />
                 <CardDefault
                     title = "Lamp"
                     image = "https://www.ikea.com/us/en/images/products/kryssmast-table-lamp-with-led-bulb-nickel-plated__0789157_pe763849_s5.jpg"
-                    description = {"Where else can you find a lamp that looks as good as this"}
+                    description = {"Check out this charming lamp at our stoop sale! It adds the perfect touch of warmth and style to any room."}
                 />
             </div>
             

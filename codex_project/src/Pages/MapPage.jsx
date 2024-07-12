@@ -1,7 +1,12 @@
-function MapPage() {
-    return(
-        <p>map page</p>
-    )
-}
+import React from 'react';
+import MapGoogle from '../Components/MapGoogle.jsx';
 
-export default MapPage
+const MapPage = () => {
+  return (
+    <div className = "map-container">
+      <MapGoogle/>
+    </div>
+  );
+};
+
+export default MapPage;

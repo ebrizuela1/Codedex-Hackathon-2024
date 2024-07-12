@@ -13,7 +13,7 @@ const ShareButton = () => {
           }}
           onClick={() => console.info("share successful!")}
         >
-          <button varient="Gradient" className="rounded-full">Share</button>
+          <button varient="Gradient" className="rounded-full share-button">Share</button>
         </RWebShare>
       </div>
     );
