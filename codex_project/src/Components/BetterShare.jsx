@@ -59,7 +59,7 @@ function BetterShare(){
  
     const handleOpen = () => setOpen(!open);
    
-    const shareUrl = "Youtube.com"
+    const shareUrl = window.location
     const title = "Youtube"
 
     return (
