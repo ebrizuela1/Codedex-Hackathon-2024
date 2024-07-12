@@ -59,7 +59,7 @@ function BetterShare(){
  
     const handleOpen = () => setOpen(!open);
    
-    const shareUrl = window.location
+    const shareUrl = window.location.href
     const title = "Youtube"
 
     return (
@@ -73,7 +73,7 @@ function BetterShare(){
           </DialogHeader>
           <DialogBody>
             <div className="justify-evenly">
-                <FacebookShareButton>
+                <FacebookShareButton url={shareUrl}>
                     <FacebookIcon/>
                 </FacebookShareButton>
                 <TwitterShareButton>
