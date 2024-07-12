@@ -76,22 +76,22 @@ function BetterShare(){
                 <FacebookShareButton url={shareUrl}>
                     <FacebookIcon/>
                 </FacebookShareButton>
-                <TwitterShareButton>
+                <TwitterShareButton url={shareUrl}>
                     <TwitterIcon/>
                 </TwitterShareButton>
-                <WhatsappShareButton>
+                <WhatsappShareButton url={shareUrl}>
                     <WhatsappIcon/>
                 </WhatsappShareButton>
-                <RedditShareButton>
+                <RedditShareButton url={shareUrl}>
                     <RedditIcon/>
                 </RedditShareButton>
-                <TelegramShareButton>
+                <TelegramShareButton url={shareUrl}>
                     <TelegramIcon/>
                 </TelegramShareButton>
-                <LinkedinShareButton>
+                <LinkedinShareButton url={shareUrl}>
                     <LinkedinIcon/>
                 </LinkedinShareButton>
-                <EmailShareButton>
+                <EmailShareButton url={shareUrl}>
                     <EmailIcon/>
                 </EmailShareButton>
             </div>
