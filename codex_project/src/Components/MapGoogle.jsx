@@ -1,5 +1,4 @@
-
-import { useState } from "react";
+import React, { useState } from "react";
 import {
   APIProvider,
   Map,
@@ -11,13 +10,13 @@ import {
 export default function MapGoogle() {
   const position = { lat: 40.67, lng: -73.99 };
   const [open, setOpen] = useState(false);
-
-  console.log(process.env.REACT_APP_GOOGLE_API_KEY);
+  const API_KEY = import.meta.env.VITE_GOOGLE_API_KEY;
+  const MAP_ID = import.meta.env.VITE_MAP_ID;
 
   return (
-    <APIProvider apiKey={process.env.REACT_APP_GOOGLE_API_KEY}>
+    <APIProvider apiKey={API_KEY}>
       <div style={{ height: "100vh", width: "100%" }}>
-        <Map zoom={9} center={position} mapId={process.env.REACT_APP_MAP_ID}>
+        <Map zoom={9} center={position} mapId={MAP_ID}>
           <AdvancedMarker position={position} onClick={() => setOpen(true)}>
             <Pin
               background={"grey"}

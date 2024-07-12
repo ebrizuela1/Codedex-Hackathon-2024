@@ -65,7 +65,7 @@ function BetterShare(){
     return (
       <>
         <Button onClick={handleOpen} variant="gradient">
-          Open Dialog
+          Please Share!
         </Button>
         <Dialog open={open} handler={handleOpen}>
           <DialogHeader>
